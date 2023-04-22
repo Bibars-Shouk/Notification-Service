@@ -1,0 +1,25 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "schedule-cron": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bibars-Shouk/Notification-Service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bibars-Shouk/Notification-Service/issues"
+  },
+  "homepage": "https://github.com/Bibars-Shouk/Notification-Service#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "node-cron": "^3.0.2",
+    "twilio": "^4.10.0"
+  }
+}
